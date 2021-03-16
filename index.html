@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validación Jquery</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Tipo de letra -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9495e9b9d8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Formulario Contacto</h1>
+
+        <div class="contenido">
+
+            <div class="info">
+
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Plaza dignidad. Santiago</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>Consulta@correo.com</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p>917264532</p>
+                </div>
+
+                <div class="redes-s">
+
+                    <a href="#"><i class="fab fa-facebook-f">  </i></a>
+                    <a href="#"><i class="fab fa-twitter">  </i></a>
+                    <a href="#"><i class="fab fa-instagram">  </i></a>
+
+                </div>
+
+            </div>
+            <form action="" method="POST" class="formulario1">
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electrónico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+            </form>
+
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="javascript/script.js" ></script>
+</body>
+</html>
